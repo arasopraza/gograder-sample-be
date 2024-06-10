@@ -11,10 +11,10 @@ const multer = Multer({
 
 // TODO: Sesuaikan konfigurasi database
 const connection = mysql.createConnection({
-  host: "34.101.109.181",
+  host: "34.128.96.131",
   user: "root",
-  database: "money_db",
-  password: "password",
+  database: "gograder-sql",
+  password: "Bismillah*99",
 });
 
 router.get("/dashboard", (req, res) => {

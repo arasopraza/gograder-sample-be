@@ -8,12 +8,12 @@ const pathKey = path.resolve("./serviceaccountkey.json");
 
 // TODO: Sesuaikan konfigurasi Storage
 const gcs = new Storage({
-  projectId: "submission-mgce-ivandriancode",
+  projectId: "gograder-sample-test",
   keyFilename: pathKey,
 });
 
 // TODO: Tambahkan nama bucket yang digunakan
-const bucketName = "money-storage11";
+const bucketName = "gograder";
 const bucket = gcs.bucket(bucketName);
 
 function getPublicUrl(filename) {
